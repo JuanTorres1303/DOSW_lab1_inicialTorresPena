@@ -143,6 +143,24 @@ Programa que trabaja con estructuras de datos HashMap y Hashtable para almacenar
 - Uso de stream(), map() y sorted()
 - Collectors.toMap()
 - Resolución de conflictos en Git mediante merge
+
+**Ejemplo de Uso:**
+```
+Entrada:
+HashMap: [("oro", 5), ("plata", 3), ("oro", 7), ("diamante", 10)]
+HashTable: [("plata", 8), ("rubí", 4), ("oro", 12), ("esmeralda", 6)]
+
+Salida:
+Clave: DIAMANTE | Valor: 10
+Clave: ESMERALDA | Valor: 6
+Clave: ORO | Valor: 12
+Clave: PLATA | Valor: 8
+Clave: RUBÍ | Valor: 4
+
+```
+
+---
+
 ### Reto 5: Sucesión de Fibonacci
 
 **Descripción:**
