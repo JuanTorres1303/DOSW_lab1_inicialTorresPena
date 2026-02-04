@@ -123,13 +123,26 @@ Método Recursivo: 5! = 120
 
 ### Reto 4: Tabla de Multiplicar
 
-**Estado:** 
-
 **Descripción:**
-Genera la tabla de multiplicar de un número especificado por el usuario. Muestra los resultados en formato simple y formateado.
+Programa que trabaja con estructuras de datos HashMap y Hashtable para almacenar y combinar pares clave-valor. El sistema ignora claves duplicadas, prioriza los valores provenientes del Hashtable, transforma las claves a mayúsculas y muestra el resultado ordenado alfabéticamente usando programación funcional.
 
+**Archivo:** `reto4.java`
 
+**Funcionalidades:**
+- Almacenamiento de pares clave-valor en HashMap ignorando claves duplicadas
+- Almacenamiento de pares clave-valor en Hashtable asegurando sincronización
+- Combinación de HashMap y Hashtable, priorizando valores del Hashtable
+- Conversión de claves a mayúsculas antes de imprimir
+- Ordenamiento ascendente de claves
+- Impresión del resultado final usando streams y Collectors.toMap()
 
+**Conceptos Aplicados:**
+- HashMap y Hashtable
+- Manejo de claves duplicadas
+- Programación funcional con lambdas
+- Uso de stream(), map() y sorted()
+- Collectors.toMap()
+- Resolución de conflictos en Git mediante merge
 ### Reto 5: Sucesión de Fibonacci
 
 **Descripción:**
