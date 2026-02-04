@@ -123,34 +123,12 @@ Método Recursivo: 5! = 120
 
 ### Reto 4: Tabla de Multiplicar
 
+**Estado:** ⏸️ No implementado en este repositorio (se realiza por separado)
+
 **Descripción:**
 Genera la tabla de multiplicar de un número especificado por el usuario. Muestra los resultados en formato simple y formateado.
 
-**Archivo:** `TablaMultiplicar.java`
-
-**Funcionalidades:**
-- Generación de tabla de multiplicar
-- Visualización en formato simple
-- Visualización en formato visual mejorado
-- Cálculo de suma de resultados
-
-**Conceptos Aplicados:**
-- Bucles (for)
-- Formato de salida (printf)
-- Cálculos matemáticos
-- Encapsulación de datos
-
-**Ejemplo de Uso:**
-```
-Ingrese el número: 7
-Ingrese el límite: 10
-
-Tabla de Multiplicar del 7:
-7 × 1 = 7
-7 × 2 = 14
-...
-7 × 10 = 70
-```
+**Nota:** Este reto se realiza de forma independiente y no está incluido en este laboratorio.
 
 ---
 
@@ -245,24 +223,22 @@ Ingrese una frase: A man, a plan, a canal: Panama
 
 ---
 
-## Compilación y Ejecución
+### Compilación y Ejecución
 
-### Compilar todos los retos
+**Compilar todos los retos**
 ```bash
 javac laboratorio1/reto1/*.java
 javac laboratorio1/reto2/*.java
 javac laboratorio1/reto3/*.java
-javac laboratorio1/reto4/*.java
 javac laboratorio1/reto5/*.java
 javac laboratorio1/reto6/*.java
 ```
 
-### Ejecutar cada reto
+**Ejecutar cada reto**
 ```bash
 java laboratorio1.reto1.Main
 java laboratorio1.reto2.ParesImpares
 java laboratorio1.reto3.Factorial
-java laboratorio1.reto4.TablaMultiplicar
 java laboratorio1.reto5.Fibonacci
 java laboratorio1.reto6.Palindromo
 ```
