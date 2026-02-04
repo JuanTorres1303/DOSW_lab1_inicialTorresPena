@@ -1,6 +1,6 @@
 # LABORATORIO 1 - DOSW
 
-## Estudiante: TorresCamilo
+## Estudiante: Juan Camilo Torres Suarez, Hildebrando Peña Quezada
 **Período Académico:** 2026-1
 **Grupo:** G4
 
@@ -25,7 +25,7 @@ DOSW_lab1_inicialTorresPena/
     ├── reto3/
     │   └── Factorial.java
     ├── reto4/
-    │   └── TablaMultiplicar.java
+    │   └── Reto4.java
     ├── reto5/
     │   └── Fibonacci.java
     └── reto6/
