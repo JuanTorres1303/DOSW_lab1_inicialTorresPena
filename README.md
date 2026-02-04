@@ -7,97 +7,286 @@
 ---
 
 ## Descripción del Laboratorio
-Este laboratorio consiste en desarrollar y documentar una serie de retos que cubren conceptos fundamentales de desarrollo de software, incluyendo control de versiones con Git, arquitectura de software basada en principios SOLID, y patrones de diseño.
+Este laboratorio consiste en desarrollar una serie de retos que cubren conceptos fundamentales de programación en Java, incluyendo control de flujo, estructuras de datos, algoritmos y buenas prácticas de programación.
 
 ---
 
-## Retos a Desarrollar
+## Estructura del Proyecto
 
-## Retos a Desarrollar
-
-### Reto 1: ❌ OMITIDO
-
-### Reto 2: Git - Control de Versiones Básico
-
-**Descripción:**
-Crear una rama `reto-2` desde develop, implementar cambios relacionados con control de versiones y documentar el flujo de trabajo con Git.
-
-**Cambios Realizados:**
-- Rama `reto-2` creada desde develop
-- Documentación de Git Flow implementada
-- Commits significativos realizados
-- Merge exitoso a develop
-
-**Archivos Generados:**
-- `reto-2/RETO_2.md` - Documentación completa del reto
-
-**Argumentación:**
-El control de versiones es fundamental en desarrollo de software profesional. Este reto demuestra la capacidad de trabajar con ramas feature, hacer commits significativos y realizar merges de forma controlada.
+```
+DOSW_lab1_inicialTorresPena/
+└── laboratorio1/
+    ├── reto1/
+    │   ├── Estudiante.java
+    │   ├── Main.java
+    │   └── Mensaje.java
+    ├── reto2/
+    │   └── ParesImpares.java
+    ├── reto3/
+    │   └── Factorial.java
+    ├── reto4/
+    │   └── TablaMultiplicar.java
+    ├── reto5/
+    │   └── Fibonacci.java
+    └── reto6/
+        └── Palindromo.java
+```
 
 ---
 
-### Reto 3: Arquitectura y Principios SOLID
+## Retos Desarrollados
+
+### Reto 1: Información del Estudiante
 
 **Descripción:**
-Diseñar una arquitectura de software escalable y documentar la aplicación de los principios SOLID (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).
+Crear una clase para representar un estudiante con atributos como nombre, cedula e información académica. Crear un programa que muestre esta información en pantalla.
 
-**Cambios Realizados:**
-- Estructura en capas: Models, Services, Repositories, Interfaces
-- Documentación detallada de cada principio SOLID
-- Ejemplos de patrones (Repository, Dependency Injection)
-- Decisiones de arquitectura justificadas
+**Archivos:**
+- `Estudiante.java` - Clase modelo para estudiante
+- `Mensaje.java` - Clase para manejar mensajes
+- `Main.java` - Programa principal
 
-**Archivos Generados:**
-- `reto-3/RETO_3.md` - Guía completa de arquitectura
-- `reto-3/docs/arquitectura.md` - Decisiones de diseño
-- `reto-3/src/interfaces/interfaces.md` - Contratos del sistema
-- `reto-3/src/repositories/example.md` - Ejemplo de implementación
-
-**Argumentación:**
-Una arquitectura bien diseñada basada en principios SOLID resulta en código más mantenible, testeable y escalable. Este reto demuestra la comprensión profunda de estos principios y su aplicación práctica en sistemas reales.
+**Conceptos Aplicados:**
+- Clases y objetos
+- Atributos y métodos
+- Encapsulación
+- toString()
 
 ---
 
-### Reto 4: ❌ OMITIDO
-
-### Reto 5: Patrones de Diseño y Buenas Prácticas
+### Reto 2: Números Pares e Impares
 
 **Descripción:**
-Implementar y documentar los patrones de diseño más comunes (creacionales, estructurales y de comportamiento) junto con buenas prácticas de desarrollo de software.
+Programa que solicita al usuario ingresar números enteros y los clasifica como pares o impares. Calcula estadísticas como suma y promedio de cada grupo.
 
-**Cambios Realizados:**
+**Archivo:** `ParesImpares.java`
 
-**Patrones Creacionales:**
-- Factory Pattern - Creación flexible de objetos
-- Singleton Pattern - Garantizar instancia única
-- Builder Pattern - Construcción paso a paso
+**Funcionalidades:**
+- Ingreso de múltiples números
+- Clasificación automática de pares e impares
+- Cálculo de suma y promedio
+- Visualización de resultados
 
-**Patrones Estructurales:**
-- Adapter Pattern - Adaptar interfaces incompatibles
-- Decorator Pattern - Agregar funcionalidad dinámicamente
-- Facade Pattern - Simplificar interfaces complejas
+**Conceptos Aplicados:**
+- Entrada de datos con Scanner
+- Estructuras de control (if, for, while)
+- Colecciones (ArrayList)
+- Métodos y encapsulación
+- Validación de datos
 
-**Patrones de Comportamiento:**
-- Observer Pattern - Notificaciones entre objetos
-- Strategy Pattern - Algoritmos intercambiables
-- Command Pattern - Encapsular acciones
+**Ejemplo de Uso:**
+```
+Ingrese números enteros (0 para terminar):
+Número: 5
+Número: 12
+Número: 8
+Número: 0
 
-**Buenas Prácticas:**
-- Documentación clara y concisa
-- Nombres significativos en código
-- Testing y validación
-- Manejo de errores
+Total de números PARES: 2
+Total de números IMPARES: 1
+```
 
-**Archivos Generados:**
-- `reto-5/RETO_5.md` - Guía exhaustiva de patrones
-- `reto-5/patrones-creacionales/factory.md`
-- `reto-5/patrones-creacionales/singleton.md`
-- `reto-5/patrones-comportamiento/observer.md`
-- `reto-5/buenas-practicas/documentacion.md`
-- `reto-5/buenas-practicas/nombres-significativos.md`
+---
 
-**Argumentación:**
-Los patrones de diseño son soluciones probadas a problemas recurrentes. Su conocimiento y aplicación resulta en código más profesional, reutilizable y fácil de mantener. Combinado con buenas prácticas, garantiza la calidad del software.
+### Reto 3: Cálculo de Factorial
+
+**Descripción:**
+Programa que calcula el factorial de un número. Implementa dos enfoques: iterativo y recursivo. Muestra el proceso de cálculo.
+
+**Archivo:** `Factorial.java`
+
+**Funcionalidades:**
+- Cálculo iterativo del factorial
+- Cálculo recursivo del factorial
+- Visualización del proceso (n! = n × (n-1) × ... × 1)
+- Manejo de casos especiales (0! = 1, 1! = 1)
+
+**Conceptos Aplicados:**
+- Recursividad
+- Iteración
+- Manejo de excepciones
+- Métodos estáticos
+- Validación de entrada
+
+**Ejemplo de Uso:**
+```
+Ingrese un número entero positivo: 5
+
+Proceso del Cálculo:
+5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Método Iterativo: 5! = 120
+Método Recursivo: 5! = 120
+```
+
+---
+
+### Reto 4: Tabla de Multiplicar
+
+**Descripción:**
+Genera la tabla de multiplicar de un número especificado por el usuario. Muestra los resultados en formato simple y formateado.
+
+**Archivo:** `TablaMultiplicar.java`
+
+**Funcionalidades:**
+- Generación de tabla de multiplicar
+- Visualización en formato simple
+- Visualización en formato visual mejorado
+- Cálculo de suma de resultados
+
+**Conceptos Aplicados:**
+- Bucles (for)
+- Formato de salida (printf)
+- Cálculos matemáticos
+- Encapsulación de datos
+
+**Ejemplo de Uso:**
+```
+Ingrese el número: 7
+Ingrese el límite: 10
+
+Tabla de Multiplicar del 7:
+7 × 1 = 7
+7 × 2 = 14
+...
+7 × 10 = 70
+```
+
+---
+
+### Reto 5: Sucesión de Fibonacci
+
+**Descripción:**
+Genera la sucesión de Fibonacci hasta una cantidad especificada de términos. Implementa métodos iterativo y recursivo.
+
+**Archivo:** `Fibonacci.java`
+
+**Funcionalidades:**
+- Generación iterativa de la sucesión
+- Cálculo recursivo individual
+- Estadísticas (suma, promedio, primero, último)
+- Visualización de la sucesión completa
+
+**Conceptos Aplicados:**
+- Sucesiones matemáticas
+- Recursividad y optimización
+- Colecciones (ArrayList)
+- Cálculos estadísticos
+- Memoización
+
+**Ejemplo de Uso:**
+```
+¿Cuántos términos desea generar? 10
+
+Sucesión de Fibonacci:
+[ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ]
+
+Cantidad de términos: 10
+Suma total: 88
+Promedio: 8.8
+```
+
+---
+
+### Reto 6: Validación de Palíndromos
+
+**Descripción:**
+Valida si una palabra, frase o número es un palíndromo. Un palíndromo se lee igual hacia adelante y hacia atrás.
+
+**Archivo:** `Palindromo.java`
+
+**Funcionalidades:**
+- Validación de palabras
+- Validación de frases (ignorando espacios y puntuación)
+- Validación de números
+- Búsqueda de palíndromos en un rango numérico
+- Análisis detallado con comparación caractér por caractér
+- Menú interactivo
+
+**Conceptos Aplicados:**
+- Manipulación de cadenas (String)
+- Expresiones regulares
+- Recursividad vs iteración
+- Estructuras de control
+- Menús interactivos
+
+**Ejemplo de Uso:**
+```
+Ingrese una palabra: radar
+¿Es palíndromo? true
+
+Ingrese una frase: A man, a plan, a canal: Panama
+¿Es palíndromo? true
+```
+
+---
+
+## Resumen de Aprendizajes
+
+### Conceptos Fundamentales
+- **Programación Orientada a Objetos:** Clases, objetos, encapsulación
+- **Estructuras de Control:** if/else, for, while, do-while
+- **Colecciones:** ArrayList, List
+- **Métodos:** Parámetros, retorno de valores, sobrecarga
+- **Recursividad:** Implementación y optimización
+
+### Técnicas Avanzadas
+- **Validación de Datos:** Manejo de excepciones
+- **Manipulación de Cadenas:** StringBuilder, expresiones regulares
+- **Cálculos Matemáticos:** Factorial, Fibonacci, operaciones aritméticas
+- **Formato de Salida:** printf, formatos visuales
+
+### Buenas Prácticas
+- Documentación con Javadoc
+- Nombres significativos de variables y métodos
+- Encapsulación y reutilización de código
+- Manejo seguro de excepciones
+- Validación robusta de entrada
+
+---
+
+## Compilación y Ejecución
+
+### Compilar todos los retos
+```bash
+javac laboratorio1/reto1/*.java
+javac laboratorio1/reto2/*.java
+javac laboratorio1/reto3/*.java
+javac laboratorio1/reto4/*.java
+javac laboratorio1/reto5/*.java
+javac laboratorio1/reto6/*.java
+```
+
+### Ejecutar cada reto
+```bash
+java laboratorio1.reto1.Main
+java laboratorio1.reto2.ParesImpares
+java laboratorio1.reto3.Factorial
+java laboratorio1.reto4.TablaMultiplicar
+java laboratorio1.reto5.Fibonacci
+java laboratorio1.reto6.Palindromo
+```
+
+---
+
+## Conclusiones
+
+Este laboratorio ha proporcionado experiencia práctica en:
+
+1. **Programación Fundamental:** Desarrollo de programas en Java desde cero
+2. **Algoritmos:** Implementación de algoritmos clásicos (factorial, Fibonacci)
+3. **Estructuras de Datos:** Uso de colecciones y Arrays
+4. **Validación:** Técnicas de validación robusta de datos
+5. **Documentación:** Código bien comentado y documentado
+
+Todos los retos han sido completados exitosamente con código funcional, bien documentado y siguiendo mejores prácticas de programación en Java.
+
+---
+
+**Estudiante:** TorresCamilo  
+**Período:** 2026-1  
+**Grupo:** G4  
+**Fecha de Finalización:** 2026-02-04
 
 ---
 
@@ -111,94 +300,4 @@ DOSW_lab1_inicialTorresPena/
 └── reto-5/                   # Implementación del reto 5
 ```
 
----
 
-## Estructura del Repositorio
-
-```
-DOSW_lab1_inicialTorresPena/
-├── README.md
-├── reto-2/
-│   └── RETO_2.md
-├── reto-3/
-│   ├── RETO_3.md
-│   ├── docs/
-│   │   └── arquitectura.md
-│   └── src/
-│       ├── interfaces/
-│       │   └── interfaces.md
-│       ├── models/
-│       ├── repositories/
-│       │   └── example.md
-│       └── services/
-└── reto-5/
-    ├── RETO_5.md
-    ├── patrones-creacionales/
-    │   ├── factory.md
-    │   └── singleton.md
-    ├── patrones-estructurales/
-    ├── patrones-comportamiento/
-    │   └── observer.md
-    └── buenas-practicas/
-        ├── documentacion.md
-        └── nombres-significativos.md
-```
-
----
-
-## Flujo de Trabajo Git
-
-Se implementó un flujo profesional de Git con las siguientes características:
-
-1. **Rama develop:** Rama base de integración
-2. **Ramas feature:** Una rama por cada reto (reto-2, reto-3, reto-5)
-3. **Rama main:** Código en producción
-
-**Proceso de Integración:**
-- Cada reto se desarrolla en su rama feature
-- Los cambios se integran en develop mediante merge
-- Una vez completados todos los retos, develop se integra en main
-
----
-
-## Resumen de Aprendizajes
-
-### Control de Versiones (Reto 2)
-- Uso de ramas feature para desarrollo aislado
-- Commits significativos y bien documentados
-- Merge sin conflictos
-- Flujo de trabajo profesional
-
-### Arquitectura SOLID (Reto 3)
-- Single Responsibility Principle
-- Open/Closed Principle
-- Liskov Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
-- Patrones: Repository, Dependency Injection
-
-### Patrones de Diseño (Reto 5)
-- Patrones Creacionales: Factory, Singleton, Builder
-- Patrones Estructurales: Adapter, Decorator, Facade
-- Patrones de Comportamiento: Observer, Strategy, Command
-- Buenas prácticas de código
-
----
-
-## Conclusiones
-
-Este laboratorio ha proporcionado una formación integral en:
-
-1. **Control de Versiones:** Manejo profesional de Git con ramas y merges
-2. **Arquitectura:** Diseño escalable basado en principios SOLID
-3. **Patrones:** Implementación de soluciones probadas a problemas comunes
-4. **Calidad:** Código profesional, documentado y mantenible
-
-Todos los retos han sido completados y documentados adecuadamente, demostrando comprensión profunda de los conceptos de desarrollo de software.
-
----
-
-**Estudiante:** TorresCamilo  
-**Período:** 2026-1  
-**Grupo:** G4  
-**Fecha:** 2026-02-04
