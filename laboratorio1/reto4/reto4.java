@@ -1,3 +1,25 @@
+package laboratorio1.reto4;
+
+import java.util.*;
+
+/**
+ * Reto 4: El tesoro de las llaves duplicadas
+ * 
+ * Descripcion:
+ * Este programa trabaja con estructuras de datos Map en Java,
+ * especificamente HashMap y Hashtable. El objetivo es almacenar
+ * pares clave valor ignorando claves duplicadas, combinar ambos
+ * mapas priorizando los valores del Hashtable en caso de conflicto,
+ * convertir las claves a mayusculas y mostrar el resultado ordenado
+ * de forma ascendente.
+ * 
+ * Se hace uso de programacion funcional mediante lambdas y streams
+ * para procesar, ordenar e imprimir la informacion de manera eficiente.
+ * 
+ * @author PenaHildebrando
+ * @version 1.0
+ */
+
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
