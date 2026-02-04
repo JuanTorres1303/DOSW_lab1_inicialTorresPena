@@ -123,14 +123,12 @@ Método Recursivo: 5! = 120
 
 ### Reto 4: Tabla de Multiplicar
 
-**Estado:** ⏸️ No implementado en este repositorio (se realiza por separado)
+**Estado:** 
 
 **Descripción:**
 Genera la tabla de multiplicar de un número especificado por el usuario. Muestra los resultados en formato simple y formateado.
 
-**Nota:** Este reto se realiza de forma independiente y no está incluido en este laboratorio.
 
----
 
 ### Reto 5: Sucesión de Fibonacci
 
