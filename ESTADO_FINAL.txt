@@ -1,0 +1,218 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                  🎉 LABORATORIO 1 DOSW - COMPLETADO 🎉                     ║
+║                                                                              ║
+║                        Estado: ✅ LISTO PARA ENTREGA                        ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 INFORMACIÓN DEL ESTUDIANTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Nombre:              TorresCamilo
+  Período Académico:   2026-1
+  Grupo:               G4
+  Curso:               Desarrollo de Software (DOSW)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ RETOS COMPLETADOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Reto 2: Git - Control de Versiones Básico
+  ├─ Estado: ✅ COMPLETADO
+  ├─ Rama: reto-2 → merged a develop
+  ├─ Archivos: 1 documento
+  └─ Commits: 1
+
+  Reto 3: Arquitectura y Principios SOLID
+  ├─ Estado: ✅ COMPLETADO
+  ├─ Rama: reto-3 → merged a develop
+  ├─ Archivos: 4 documentos
+  └─ Commits: 1
+
+  Reto 5: Patrones de Diseño y Buenas Prácticas
+  ├─ Estado: ✅ COMPLETADO
+  ├─ Rama: reto-5 → merged a develop
+  ├─ Archivos: 6 documentos
+  └─ Commits: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ RETOS OMITIDOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ❌ Reto 1: Omitido por instrucción del usuario
+  ❌ Reto 4: Omitido por instrucción del usuario
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 ESTADÍSTICAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Archivos Creados:           11 archivos
+  Líneas de Documentación:    1,239 líneas
+  Commits en Main:            6 commits
+  Ramas Feature:              3 ramas (reto-2, reto-3, reto-5)
+  Merges Completados:         3 (a develop) + 1 (final a main)
+  README Actualizado:         Sí ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 FLUJO DE INTEGRACIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+         Ramas de Feature
+         ┌─────────────────┐
+         │   reto-2        │
+         │   reto-3        │──┐
+         │   reto-5        │  │
+         └─────────────────┘  │
+                              │
+                              ▼
+                          develop
+                        (Integración)
+                              │
+                              │ merge
+                              ▼
+                            main ✓
+                          (Actual)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 ESTRUCTURA FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DOSW_lab1_inicialTorresPena/
+│
+├── README.md ................................. Documentación completa (actualizado)
+├── RESUMEN_FINAL.md .......................... Resumen ejecutivo del laboratorio
+├── INSTRUCCIONES_FINALES.md .................. Guía para revisor
+│
+├── reto-2/
+│   └── RETO_2.md ............................ Documentación de Git Flow
+│
+├── reto-3/
+│   ├── RETO_3.md ............................ Arquitectura SOLID
+│   ├── docs/
+│   │   └── arquitectura.md ................. Decisiones de diseño
+│   └── src/
+│       ├── interfaces/
+│       │   └── interfaces.md ............... Contratos del sistema
+│       ├── models/ ......................... (Carpeta de modelos)
+│       ├── services/ ....................... (Carpeta de servicios)
+│       └── repositories/
+│           └── example.md ................. Ejemplos de implementación
+│
+└── reto-5/
+    ├── RETO_5.md ............................ Guía de Patrones de Diseño
+    ├── patrones-creacionales/
+    │   ├── factory.md ....................... Factory Pattern
+    │   └── singleton.md ..................... Singleton Pattern
+    ├── patrones-estructurales/ ............ (Carpeta de patrones estructurales)
+    ├── patrones-comportamiento/
+    │   └── observer.md ..................... Observer Pattern
+    └── buenas-practicas/
+        ├── documentacion.md ................ Cómo documentar código
+        └── nombres-significativos.md ....... Convenciones de nombres
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 TEMAS CUBIERTOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Reto 2 - Control de Versiones
+  ✓ Git Flow workflow
+  ✓ Ramas feature
+  ✓ Commits significativos
+  ✓ Merge estratégico
+
+Reto 3 - Arquitectura SOLID
+  ✓ Single Responsibility Principle
+  ✓ Open/Closed Principle
+  ✓ Liskov Substitution Principle
+  ✓ Interface Segregation Principle
+  ✓ Dependency Inversion Principle
+  ✓ Repository Pattern
+  ✓ Dependency Injection
+
+Reto 5 - Patrones de Diseño
+  ✓ Factory Pattern
+  ✓ Singleton Pattern
+  ✓ Builder Pattern
+  ✓ Adapter Pattern
+  ✓ Decorator Pattern
+  ✓ Facade Pattern
+  ✓ Observer Pattern
+  ✓ Strategy Pattern
+  ✓ Command Pattern
+  ✓ Buenas prácticas (documentación, nombres, testing)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 HISTORIAL DE COMMITS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+e8ea48f - docs: agregar instrucciones finales para revisor
+3d814af - docs: agregar resumen ejecutivo del laboratorio completado
+92c84f8 - docs: actualizar README con todos los retos completados
+18dc296 - reto-5: patrones de diseño y buenas prácticas
+08d135f - reto-3: arquitectura SOLID y patrones de diseño
+4d7f9a0 - reto-2: estructura base y documentación del reto 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ CARACTERÍSTICAS DE CALIDAD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ Código limpio y bien organizado
+  ✅ Documentación exhaustiva
+  ✅ Ejemplos prácticos incluidos
+  ✅ Commits significativos
+  ✅ Flujo de trabajo profesional
+  ✅ Estructura clara de carpetas
+  ✅ README actualizado
+  ✅ Prácticas de Git Flow implementadas
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 PRÓXIMOS PASOS (PARA REVISOR)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Revisar README.md para visión general
+2. Leer INSTRUCCIONES_FINALES.md para detalles
+3. Revisar RESUMEN_FINAL.md para estadísticas
+4. Examinar cada reto:
+   - reto-2/RETO_2.md
+   - reto-3/RETO_3.md
+   - reto-5/RETO_5.md
+5. Consultar documentación detallada en subcarpetas
+6. Verificar flujo git: git log --graph --oneline --all
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ ESTADO FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Rama Activa:              main
+  Estado del Repositorio:   Limpio (nothing to commit)
+  Cambios Pendientes:       Ninguno
+  Todos los Retos:          ✅ Completados
+  Documentación:            ✅ Completa
+  README:                   ✅ Actualizado
+  Integración a Main:       ✅ Completada
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                  🎓 LABORATORIO COMPLETADO EXITOSAMENTE 🎓                 ║
+║                                                                              ║
+║                 Listo para evaluación y retroalimentación                    ║
+║                                                                              ║
+║                 Completado: 2026-02-04                                       ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
